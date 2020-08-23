@@ -48,7 +48,7 @@ else:
 # if you are under 16, save the message “You can go Trick-or-Treating” in result_5 variable.
 
 age = 13
-result_5 = None
+
 if age > 18:
     result_5 = 'You can vote'
 elif age == 17:
