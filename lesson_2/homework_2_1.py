@@ -36,23 +36,59 @@ print(result_3)
 # If they enter a number within this range, save a message “Thank you” to result_4, otherwise a
 # message “Incorrect answer” to result_4.
 
-number_2 = None
+number_2 = 15
 result_4 = None
-
-
+if number_2 >= 10 and number_2 <= 20:
+    result_4 = 'thank you'
+else:
+    result_4 = 'incorrect answer'
 # Enter your age. If you are 18 or over, save the message “You can vote” in result_5,
 # if you are aged 17, save the message “You can learn to drive” in result_5 variable,
 # if you are 16, save the message “You can buy a lottery ticket” in result_5,
 # if you are under 16, save the message “You can go Trick-or-Treating” in result_5 variable.
 
-age = None
+age = 13
 result_5 = None
-
+if age > 18:
+    result_5 = 'You can vote'
+elif age == 17:
+    result_5 = "You can learn to drive"
+elif age == 16:
+    result_5 = "you can buy a lottery ticket"
+elif age < 16:
+    result_5 = "you can go Trick-or-treating"
 
 # Enter a number between 1 and 12, save this value to month variable. Find which month is it.
 # (January, February, March, April, May, June, Jule, August, September, October, November, December)
 # Write answer in result_month in lower case
 
-month = None
-result_month = None
+month = 7
 
+if month == 1:
+    result_month = "January"
+elif month == 2:
+    result_month = 'February'
+elif month == 3:
+    result_month = 'March'
+elif month == 4:
+    result_month = 'April'
+elif month == 5:
+    result_month = 'May'
+elif month == 6:
+    result_month = "June"
+elif month == 7:
+    result_month = "July"
+elif month == 8:
+    result_month = "August"
+elif month == 9:
+    result_month = "September"
+elif month == 10:
+    result_month = "October"
+elif month == 11:
+    result_month = "November"
+elif month == 12:
+    result_month = "December"
+else:
+    result_month = "Error"
+
+print(result_month)
