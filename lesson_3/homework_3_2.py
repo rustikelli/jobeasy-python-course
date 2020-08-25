@@ -4,9 +4,19 @@
 # Write code, which will count how many times your character is included in your string.
 # Save result to result_1 variable
 
-string_1 = None
-char_1 = None
-result_1 = None
+string_1 = "My name is Rustam"
+char_1 = "m"
+result_1 = 0
+counter = 0
+
+while counter < len(string_1):
+    if string_1 [counter] == char_1:
+        result_1 += 1
+    counter += 1
+
+print(result_1)
+
+
 
 
 # Enter a random number and save it in variable number_1. Then create code to multiply all the digits together
