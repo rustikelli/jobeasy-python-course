@@ -1,15 +1,18 @@
 # Save to variable result_1 the first character of string_1 variable. In result_2 save the last character
 # of string_1. Use indexes.
 
-string_1 = 'Python'
+string_1 = None
 result_1 = None
 result_2 = None
 
+print(result_2)
 
 # Save to variable result_3 string value from string_2 variable, written in reverse order, using concatenation.
 
-string_2 = 'Python'
+string_2 = None
 result_3 = None
+
+
 
 
 # Slice string string_3 from 5th to 20th (excluding 20th) character and save the result to variable result_4

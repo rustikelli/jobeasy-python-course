@@ -14,7 +14,7 @@ while counter < len(string_1):
         result_1 += 1
     counter += 1
 
-print(result_1)
+# print(result_1)
 
 
 
@@ -22,12 +22,36 @@ print(result_1)
 # Enter a random number and save it in variable number_1. Then create code to multiply all the digits together
 # and save result in the result_2 variable.
 
-number_1 = None
-result_2 = None
+number_1 = 48872
+result_2 = 1
+ind = 0
+stop = len(str(number_1))
+
+
+
+while ind < stop:
+    result_2 *= number_1 % 10
+    number_1 //= 10
+    ind += 1
+
+print(result_2)
+
+
+
+
+
+
+
 
 
 # Enter a random number and save it in variable number_2. Then create code which will return
 # a number with digits of number_1 in reverse order. Save it in result_3 variable
 
-number_2 = None
-result_3 = None
+number_2 = 12345
+result_3 = ''
+counter = 1
+while counter <= len (str(number_2)):
+    result_3 += str(number_2)[- counter]
+    counter += 1
+
+print(result_3)
